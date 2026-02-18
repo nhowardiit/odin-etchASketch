@@ -1,0 +1,66 @@
+* {
+    font-family: Roboto, Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+h1 h2 h3 {
+    margin-top: 0;
+    padding-bottom: 0;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: stretch;
+    align-content: stretch;
+    text-align: center;
+    height: 100vh;
+}
+
+header {
+    background-color: blue;
+    flex: 0;
+}
+
+.hero {
+    background-color: red;
+    flex: 0;
+}
+
+.gameContainer {
+    background-color: green;
+    flex: 1;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.game {
+    background-color: violet;
+    height: 100%;
+    aspect-ratio: 1/1;
+    max-width: 100%;
+    object-fit: contain;
+
+    border: 3px solid;
+    border-color: black;
+}
+
+.grids {
+    border: 1px solid;
+    border-color: black;
+}
+
+footer {
+    background-color: orange;
+    flex: 0;
+}

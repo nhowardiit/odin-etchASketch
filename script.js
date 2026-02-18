@@ -1,5 +1,8 @@
-const esGrid = document.querySelector(".esGrid");
-const test = document.createElement("h1");
-test.textContent = "test";
+const game = document.querySelector(".game");
+makeGrids(1);
 
-esGrid.appendChild(test);
+function makeGrids(numberOfGridSqures) {
+    const grids = document.createElement("div");
+    grids.className = "grids";
+    game.appendChild(grids);
+}
