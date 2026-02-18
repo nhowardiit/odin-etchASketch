@@ -1,2 +1,2 @@
-# odin-etchASketch
-Etch A Sketch project. Odin Foundation Capstone Project
+# Etch-A-Sketch
+Odin Foundation Capstone Project
