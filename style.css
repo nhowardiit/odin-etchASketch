@@ -25,17 +25,14 @@ body {
 }
 
 header {
-    background-color: blue;
     flex: 0;
 }
 
 .hero {
-    background-color: red;
     flex: 0;
 }
 
 .gameContainer {
-    background-color: green;
     flex: 1;
 
     display: flex;
@@ -45,7 +42,6 @@ header {
 }
 
 .game {
-    background-color: violet;
     height: 100%;
     aspect-ratio: 1/1;
     max-width: 100%;
@@ -53,14 +49,15 @@ header {
 
     border: 3px solid;
     border-color: black;
+
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .grids {
-    border: 1px solid;
     border-color: black;
 }
 
 footer {
-    background-color: orange;
     flex: 0;
 }
